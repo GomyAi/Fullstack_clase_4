@@ -1,0 +1,10 @@
+
+INICIO
+     acciones = 1000
+     iva = 1.26
+     inIva = acciones  / iva
+     ivaIncluido =  acciones - sinIva 
+    ESCRIBIR ¿Cuánto dinero se queda cada quien si venden la startup y tienen que pagar
+ el iva de su ganancia? + sinIva + y el iva a pagar es +ivaIncluido 
+FIN
+

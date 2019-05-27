@@ -1,0 +1,17 @@
+3.- Calcula tu dinero al final del mes
+
+INICIO 
+	LEER 
+        ingreso1 = 20034
+        ingreso2 = 20034
+        gasto1 = 5000
+        gasto2 = 3000
+        gasto3 = 2500
+        total_de_ingreso = ingreso1  + ingreso2
+        total_gastos = gasto1 + gasto2 + gasto3
+
+        presupuesto = total_de_ingreso - total_gastos
+	ESCRIBIR tu presupuesto es de presupuesto
+
+FIN
+

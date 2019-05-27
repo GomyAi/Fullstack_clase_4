@@ -1,0 +1,15 @@
+//Precio de Super(sal, azucar, cereal, arroz, helado)
+//Calcula cuánto vas a pagar por el super
+
+INICIO 
+	LEER 
+       sal= 20
+       azucar= 20 
+       cereal= 56 
+       arroz = 25
+        helado = 35
+       precio_super = sal + azucar + cereal + arroz + helado
+	ESCRIBIR precio_super
+
+FIN
+

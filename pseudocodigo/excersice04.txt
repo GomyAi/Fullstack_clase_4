@@ -1,0 +1,22 @@
+4.- Juan y jose inician con una cantidad 
+de dinero diferente cada quien. Su abuelita les 
+deja una herencia que se divide entre los dos en partes iguales -
+ ¿Cuánto dinero tienen entre los 2  y cuanto dinero tiene cada uno 
+ después de recibir la herencia?
+
+INICIO 
+	LEER 
+        Juan = 20034
+        Jose = 20034
+        Herencia = 5000
+        total_hermanos = Juan + Jose
+        herencia_dividida = Herencia / 2
+        Herncia_juan = herencia_dividida  + Juan
+        Herncia_jose = herencia_dividida  + Jose
+
+	ESCRIBIR Herencia de juan es = Herncia_juan
+    ESCRIBIR Herencia de jose es = Herncia_jose
+
+
+FIN
+

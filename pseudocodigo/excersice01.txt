@@ -1,0 +1,9 @@
+
+INICIO 
+	LEER 
+        base_Salarial_por_hora = 125
+        objetivo = 20000
+        cuantas_horas_necesito = objetivo / base_Salarial_por_hora
+	ESCRIBIR Necesitas cuantas_horas_necesito horas
+
+FIN

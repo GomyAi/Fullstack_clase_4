@@ -1,0 +1,46 @@
+4.- Juan y jose inician con una cantidad de dinero 
+diferente cada quien. Su abuelita les deja una herencia 
+que se divide entre los dos en partes iguales - ¿Cuánto dinero
+ tienen entre los 2  y cuanto dinero tiene cada uno después de 
+ recibir la herencia?
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Excersice02</title>
+ </head>
+ <body>
+            <script type ="application/javascript">
+        const brothers = {
+            juan: parseInt(prompt("Juan tiene: ")),
+            jose: parseInt(prompt("Jose tiene: ")),
+
+        }
+        const abuela = {
+            cantidad: parseInt(prompt("Herencia abuela: ")),
+
+        }
+        function sumaBrothers() {
+        return  brothers.juan + brothers.jose;
+        }
+        function herenciaAbuela() {
+            return abuela.cantidad / 2 ;
+        }
+        function herenciajuan() {
+            return herenciaAbuela() + brothers.juan;
+        }
+        function herenciajose() {
+            return herenciaAbuela() + brothers.jose;
+
+        }
+
+        alert ('Juan tene $' + brothers.juan + ' pesos y Jose tiene $' + brothers.jose + ' pesos; entre los dos tienen: $' + sumaBrothers())
+        alert ('la abuela tiene una herencia de' + abuela.cantidad)
+        alert ('Juan tiene despues de la herencia: ' + herenciajuan())
+        alert('Jose iiene despues de la herencia: ' + herenciajose())
+     </script>
+ </body>
+ </html>

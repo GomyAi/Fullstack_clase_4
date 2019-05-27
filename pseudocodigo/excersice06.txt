@@ -1,0 +1,12 @@
+6.- Diego quiere comprar una compu, ¿Cuanto 
+tiene que pagar si además del precio de la compu 
+tiene que pagar el iva?
+INICIO
+
+ precioCompu = 46999
+ iva = 1.16
+ sinIva = precioCompu / iva 
+ ivaIncluido =  precioCompu - sinIva 
+ESCRIBIR DIeo tiene que pagar + ivaIncluido con iva ivaIncluido
+
+FIN
